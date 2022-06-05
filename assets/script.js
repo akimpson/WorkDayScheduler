@@ -35,3 +35,25 @@ $(document).ready(function () {
     $("#time" + num).val("");
   });
 });
+
+// Set the background color based on time
+function setBackgroundForTimeOfDay() {
+  for (var i = 7; i < 19; i++) {
+    const box = document.getElementById("time" + i);
+    const hours = moment().hour();
+    if (hours > i) {
+      box.style.backgroundColor = "gray";
+      box.style.opacity = 0.75;
+      box.style.color = "black";
+    } else if (hours === i) {
+      box.style.backgroundColor = "yellow";
+      box.style.opacity = 0.75;
+      box.style.color = "black";
+    } else {
+      box.style.backgroundColor = "green";
+      box.style.opacity = 0.75;
+      box.style.color = "black";
+    }
+  }
+}
+setBackgroundForTimeOfDay();
