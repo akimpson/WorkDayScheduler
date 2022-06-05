@@ -1,5 +1,12 @@
+$( document ).ready(function() {
+    //Display current date
+    //Variable to append cols
+  var a= moment().format('dddd MMMM Do YYYY, h:mm');
+    $("#display-date").text(a)
 
-
+    function pageLoad(){
+        setColor();   //make current hour red, last hours light gray, next hours green    
+    }
 var currentHour = moment().hour();
     $(".task-info").each( function() {
         var elementHour = parseInt($(this).attr("id"));
@@ -15,4 +22,4 @@ var currentHour = moment().hour();
             $(this).removeClass(["past", "present"]).addClass("future");
         }
     })
-};
+    });
