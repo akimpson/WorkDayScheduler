@@ -50,7 +50,7 @@ function setBackgroundForTimeOfDay() {
       box.style.opacity = 0.75;
       box.style.color = "black";
     } else {
-      box.style.backgroundColor = "green";
+      box.style.backgroundColor = "aqua";
       box.style.opacity = 0.75;
       box.style.color = "black";
     }
