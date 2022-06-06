@@ -1,22 +1,17 @@
 # WorkDayScheduler
 
-# What's Included In The Code :
+# Build
 
-Create a daily planner schedule (current day)
-Used Moment.js to create day and time related functions
-Create LocalStorage
-Provides timeblocks for the hours of 9:00am - 5:00pm (colors change accordingly)
-Click into a timeblock to create an event and save information.
+- Create a daily planner schedule (current day).
+- Used Moment.js to create day and time related functions.
+- Create LocalStorage to save user input.
+- Provides timeblocks for the hours of 7:00am - 6:00pm.
+- Click into a timeblock to create an event and save information.
 
 ## Description
 
-HTML, CSS, Javascript, and Bootstrap were used to create this application. <br>
-Initially,
-
-- The
-- The
-
-Next,
+HTML, CSS, Javascript, Bootstrap, jQuery, and moment.js were used to create this application. <br>
+A single-workday planner that saves text inputs allowing users to save events for each hour of the day.
 
 ## 🔗 Links
 
@@ -25,4 +20,4 @@ More of my work can be found at (https://github.com/akimpson)
 
 ## Screenshots
 
-![WorkDayScheduler](./images/)
+![WorkDayScheduler](./assets/images/WorkdayScheduler%20Screenshot.png)

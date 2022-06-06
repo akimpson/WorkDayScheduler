@@ -8,7 +8,7 @@ textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: #f2ecec;
   border-left: 1px solid black;
   padding: 10px;
 }
@@ -16,7 +16,7 @@ textarea {
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: rgb(246, 241, 241);
   border-radius: 0;
   border-bottom: 10px solid black;
 }
