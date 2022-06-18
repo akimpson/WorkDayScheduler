@@ -10,7 +10,7 @@
 
 ## Description
 
-HTML, CSS, Javascript, Bootstrap, jQuery, and moment.js were used to create this application. <br>
+HTML, CSS, Javascript, Bootstrap, jQuery, and Moment.js were used to create this application. <br>
 A single-workday planner that saves text inputs allowing users to save events for each hour of the day.
 
 ## 🔗 Links
