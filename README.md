@@ -15,7 +15,7 @@ A single-workday planner that saves text inputs allowing users to save events fo
 
 ## 🔗 Links
 
-This site was built using [Github Pages](https://github.com/akimpson/WorkDayScheduler). <br>
+This site was built using [Github Pages](https://akimpson.github.io/WorkDayScheduler/). <br>
 More of my work can be found at (https://github.com/akimpson)
 
 ## Screenshots
